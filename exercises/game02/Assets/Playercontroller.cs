@@ -6,7 +6,7 @@ public class Playercontroller : MonoBehaviour
 {
     float moveSpeed = 5f;
     float rotateSpeed = 60f;
-    float jumpForce = 0.35f;
+    float jumpForce = 1.35f;
 
     //NOTE: Changing this will drastically affect the jumpForce and fall speed.
     float gravityModifier = 0.2f;
