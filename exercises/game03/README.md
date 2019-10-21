@@ -6,4 +6,4 @@ In this game, at the first all cards are laid face down on a surface, and the pl
 <br>
 For my goal I may need to use:
 * UI
-
+* EventListener
