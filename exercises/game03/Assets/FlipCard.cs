@@ -26,11 +26,7 @@ public class FlipCard : MonoBehaviour,IPointerClickHandler
         {
             StartCoroutine(FliptoFront());//
         }
-        //else
-        //{
-        //    StartCoroutine(FlipCardTo());
-        //}
-        //Debug.Log("click");
+
     }
 
     IEnumerator FliptoFront() //Using coroutine to simulate flip animation
@@ -112,12 +108,12 @@ public class FlipCard : MonoBehaviour,IPointerClickHandler
         Back_img.rotation = Quaternion.identity;
     }
 
-    public string GetCardName()
+    public string GetCardName()//get img name
     {
         return Front_img.GetComponent<Image>().sprite.name;
     }
 
-    public void Matched()
+    public void Matched()// if matched hide both front and back img
     {
         isOver = true;
         Front_img.gameObject.SetActive(false);

@@ -50,20 +50,20 @@ public class GameManager : MonoBehaviour
     void Show_card(int width, int height)//set the number of cards gievn the level number
     {
 
-        Sprite[] Img_List = Resources.LoadAll<Sprite>("");//get all card images
+        Sprite[] Allsprite = Resources.LoadAll<Sprite>("");//get all card images
         int totalCount = width * height / 2;
-        List<Sprite> Img_ListList = new List<Sprite>();
-        for (int i = 0; i < Img_List.Length; i++)
+        List<Sprite> Img_List = new List<Sprite>();
+        for (int i = 0; i < Allsprite.Length; i++)
         {
-            Img_ListList.Add(Img_List[i]);
+            Img_List.Add(Allsprite[i]);
         }
         List<Sprite> needShowCardList = new List<Sprite>();
         while (totalCount > 0)
         {
-            int randomIndex = Random.Range(0, Img_ListList.Count);
-            needShowCardList.Add(Img_ListList[randomIndex]);
-            needShowCardList.Add(Img_ListList[randomIndex]);
-            Img_ListList.RemoveAt(randomIndex);
+            int randomIndex = Random.Range(0, Img_List.Count);
+            needShowCardList.Add(Img_List[randomIndex]);
+            needShowCardList.Add(Img_List[randomIndex]);
+            Img_List.RemoveAt(randomIndex);
             totalCount--;
         }
         shuffle(needShowCardList);// shuffle the needshow List to randomly display the cards 
