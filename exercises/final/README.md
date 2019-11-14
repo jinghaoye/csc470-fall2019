@@ -16,7 +16,7 @@ I will have a background music for the game and create a sound effect when the o
 In this game I will implement partical effect, Animation,UI, and other features if possible. When the space key is pressed, 
 I will use the partical effect to indicate this charging process. I will use the animator to produce the jump animation. 
 The UI tool is for the counter and the botton.
-
+r
 
 Feature Target:
 ---
@@ -24,7 +24,7 @@ Low bar: Having a basic compeleted game
 
 Target: Complete all the features I mentioned 
 
-High bar: I will try to make more possible gameplay elements.  When the user are getting a high score, I could increase the difficulty of the game by add more feature to the box. For example, There is time limit for the object standing on current box. When time is out, the box will disappear.
+High bar: I will try to make more possible gameplay elements.  When the user are getting a high score, I could increase the difficulty of the game by add more feature to the box. For example, There is time limit for the current box that object stands on. When time runs out, the box will disappear. Another possible feature is, there might be randomly a particular kind of box which will keep rotating slowly, so the player should catch a perfect timing to make the object jump in the right direction.
 
 Timeline:
 ---
