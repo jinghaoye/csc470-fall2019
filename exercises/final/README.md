@@ -16,7 +16,7 @@ I will have a background music for the game and create a sound effect when the o
 In this game I will implement partical effect, Animation,UI, and other features if possible. When the space key is pressed, 
 I will use the partical effect to indicate this charging process. I will use the animator to produce the jump animation. 
 The UI tool is for the counter and the botton.
-r
+
 
 Feature Target:
 ---
